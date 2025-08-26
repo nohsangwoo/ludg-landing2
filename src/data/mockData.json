@@ -1,0 +1,331 @@
+{
+  "categories": [
+    { "id": "popular", "name": "Popular", "slug": "popular" },
+    { "id": "discover", "name": "Discover", "slug": "discover" },
+    { "id": "animation", "name": "Animation", "slug": "animation" },
+    { "id": "branding", "name": "Branding", "slug": "branding" },
+    { "id": "illustration", "name": "Illustration", "slug": "illustration" },
+    { "id": "mobile", "name": "Mobile", "slug": "mobile" },
+    { "id": "print", "name": "Print", "slug": "print" },
+    { "id": "product-design", "name": "Product Design", "slug": "product-design" },
+    { "id": "typography", "name": "Typography", "slug": "typography" },
+    { "id": "web-design", "name": "Web Design", "slug": "web-design" }
+  ],
+  "popularTags": [
+    "dashboard", "landing page", "e-commerce", "logo", "card", "icons", 
+    "mobile app", "website", "ui/ux", "branding", "illustration", "animation"
+  ],
+  "sortOptions": [
+    { "id": "popular", "name": "Popular" },
+    { "id": "recent", "name": "Recent" },
+    { "id": "following", "name": "Following" },
+    { "id": "liked", "name": "Most Liked" },
+    { "id": "viewed", "name": "Most Viewed" }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "Birdie Guild",
+      "description": "Golf club community branding and identity system",
+      "imageUrl": "/api/placeholder/400/300",
+      "likes": 81,
+      "views": 10200,
+      "author": {
+        "name": "Type08 (Alen Pavlovic)",
+        "username": "type08",
+        "avatar": "/api/placeholder/32/32",
+        "isPro": true,
+        "isTeam": false
+      },
+      "tags": ["branding", "logo", "sports", "identity"],
+      "category": "branding",
+      "createdAt": "2024-01-15T10:00:00Z",
+      "colors": ["#4ADE80", "#059669", "#FFFFFF"]
+    },
+    {
+      "id": 2,
+      "title": "Kreatank logo 5.0",
+      "description": "Creative tank logo design with modern typography",
+      "imageUrl": "/api/placeholder/400/300",
+      "likes": 93,
+      "views": 15100,
+      "author": {
+        "name": "Daniel Bodea",
+        "username": "kreatank",
+        "avatar": "/api/placeholder/32/32",
+        "isPro": true,
+        "isTeam": false
+      },
+      "tags": ["logo", "branding", "typography", "modern"],
+      "category": "branding",
+      "createdAt": "2024-01-14T14:30:00Z",
+      "colors": ["#1F2937", "#FFFFFF", "#6B7280"]
+    },
+    {
+      "id": 3,
+      "title": "Humanize",
+      "description": "AI-powered human-centered design platform",
+      "imageUrl": "/api/placeholder/400/300",
+      "likes": 115,
+      "views": 13800,
+      "author": {
+        "name": "Deividas Bielskis",
+        "username": "contrast8",
+        "avatar": "/api/placeholder/32/32",
+        "isPro": true,
+        "isTeam": false
+      },
+      "tags": ["ai", "branding", "tech", "gradient"],
+      "category": "branding",
+      "createdAt": "2024-01-13T09:15:00Z",
+      "colors": ["#8B5CF6", "#EC4899", "#FFFFFF"]
+    },
+    {
+      "id": 4,
+      "title": "Your funds, full control, anytime",
+      "description": "Financial app dashboard design with modern UI",
+      "imageUrl": "/api/placeholder/400/300",
+      "likes": 55,
+      "views": 3500,
+      "author": {
+        "name": "Emote",
+        "username": "emote",
+        "avatar": "/api/placeholder/32/32",
+        "isPro": false,
+        "isTeam": true
+      },
+      "tags": ["finance", "dashboard", "mobile", "ui"],
+      "category": "mobile",
+      "createdAt": "2024-01-12T16:45:00Z",
+      "colors": ["#3B82F6", "#8B5CF6", "#F3F4F6"]
+    },
+    {
+      "id": 5,
+      "title": "Axora Landing Page",
+      "description": "Crypto wallet landing page with smooth animations",
+      "imageUrl": "/api/placeholder/400/300",
+      "likes": 127,
+      "views": 8900,
+      "author": {
+        "name": "Fireart Studio",
+        "username": "fireart",
+        "avatar": "/api/placeholder/32/32",
+        "isPro": false,
+        "isTeam": true
+      },
+      "tags": ["crypto", "web3", "landing page", "animation"],
+      "category": "web-design",
+      "createdAt": "2024-01-11T11:20:00Z",
+      "colors": ["#1E40AF", "#3B82F6", "#DBEAFE"]
+    },
+    {
+      "id": 6,
+      "title": "TPC Logo Wordmark",
+      "description": "Technology company logo with futuristic design",
+      "imageUrl": "/api/placeholder/400/300",
+      "likes": 62,
+      "views": 7200,
+      "author": {
+        "name": "Mark Smith",
+        "username": "smiDOT",
+        "avatar": "/api/placeholder/32/32",
+        "isPro": true,
+        "isTeam": false
+      },
+      "tags": ["logo", "wordmark", "technology", "minimal"],
+      "category": "branding",
+      "createdAt": "2024-01-10T13:00:00Z",
+      "colors": ["#000000", "#FFFFFF", "#6B7280"]
+    },
+    {
+      "id": 7,
+      "title": "Dave Matthews Band Poster",
+      "description": "Concert poster design with vintage illustration style",
+      "imageUrl": "/api/placeholder/400/300",
+      "likes": 22,
+      "views": 3400,
+      "author": {
+        "name": "DKNG",
+        "username": "dkng",
+        "avatar": "/api/placeholder/32/32",
+        "isPro": true,
+        "isTeam": false
+      },
+      "tags": ["poster", "concert", "illustration", "vintage"],
+      "category": "illustration",
+      "createdAt": "2024-01-09T18:30:00Z",
+      "colors": ["#7C3AED", "#F59E0B", "#1F2937"]
+    },
+    {
+      "id": 8,
+      "title": "Lumina Brand Identity",
+      "description": "Educational platform branding with star symbolism",
+      "imageUrl": "/api/placeholder/400/300",
+      "likes": 90,
+      "views": 9400,
+      "author": {
+        "name": "Slavisa Dujkovic",
+        "username": "dujkovic",
+        "avatar": "/api/placeholder/32/32",
+        "isPro": true,
+        "isTeam": false
+      },
+      "tags": ["education", "branding", "star", "identity"],
+      "category": "branding",
+      "createdAt": "2024-01-08T12:15:00Z",
+      "colors": ["#F59E0B", "#FFFFFF", "#1F2937"]
+    },
+    {
+      "id": 9,
+      "title": "Car Subscription Platform",
+      "description": "Mobile app design for car rental service",
+      "imageUrl": "/api/placeholder/400/300",
+      "likes": 35,
+      "views": 2000,
+      "author": {
+        "name": "Fireart Studio",
+        "username": "fireart",
+        "avatar": "/api/placeholder/32/32",
+        "isPro": false,
+        "isTeam": true
+      },
+      "tags": ["mobile", "car", "subscription", "ui/ux"],
+      "category": "mobile",
+      "createdAt": "2024-01-07T15:45:00Z",
+      "colors": ["#EF4444", "#FFFFFF", "#F3F4F6"]
+    },
+    {
+      "id": 10,
+      "title": "G8X Monogram",
+      "description": "Minimalist monogram logo design",
+      "imageUrl": "/api/placeholder/400/300",
+      "likes": 79,
+      "views": 14900,
+      "author": {
+        "name": "Bojan Stefanovic",
+        "username": "logoholik",
+        "avatar": "/api/placeholder/32/32",
+        "isPro": true,
+        "isTeam": false
+      },
+      "tags": ["monogram", "logo", "minimal", "typography"],
+      "category": "branding",
+      "createdAt": "2024-01-06T10:30:00Z",
+      "colors": ["#000000", "#FFFFFF"]
+    },
+    {
+      "id": 11,
+      "title": "Social Networking Mobile App",
+      "description": "Modern social media app with photo sharing features",
+      "imageUrl": "/api/placeholder/400/300",
+      "likes": 145,
+      "views": 6600,
+      "author": {
+        "name": "Nixtio",
+        "username": "nixtio",
+        "avatar": "/api/placeholder/32/32",
+        "isPro": false,
+        "isTeam": true
+      },
+      "tags": ["social", "mobile", "photo", "community"],
+      "category": "mobile",
+      "createdAt": "2024-01-05T14:20:00Z",
+      "colors": ["#3B82F6", "#FFFFFF", "#F3F4F6"]
+    },
+    {
+      "id": 12,
+      "title": "The Goose Girl",
+      "description": "Fairytale illustration with vintage texture",
+      "imageUrl": "/api/placeholder/400/300",
+      "likes": 35,
+      "views": 2900,
+      "author": {
+        "name": "MUTI",
+        "username": "studioMUTI",
+        "avatar": "/api/placeholder/32/32",
+        "isPro": true,
+        "isTeam": false
+      },
+      "tags": ["illustration", "fairytale", "vintage", "texture"],
+      "category": "illustration",
+      "createdAt": "2024-01-04T16:00:00Z",
+      "colors": ["#8B5CF6", "#F59E0B", "#059669"]
+    },
+    {
+      "id": 13,
+      "title": "Antelope Logo",
+      "description": "Wildlife logo design with geometric approach",
+      "imageUrl": "/api/placeholder/400/300",
+      "likes": 89,
+      "views": 14200,
+      "author": {
+        "name": "Gert van Duinen",
+        "username": "cresk",
+        "avatar": "/api/placeholder/32/32",
+        "isPro": true,
+        "isTeam": false
+      },
+      "tags": ["animal", "logo", "geometric", "wildlife"],
+      "category": "branding",
+      "createdAt": "2024-01-03T11:45:00Z",
+      "colors": ["#F59E0B", "#1F2937", "#FFFFFF"]
+    },
+    {
+      "id": 14,
+      "title": "Fitness & Nutrition App",
+      "description": "Gamified health app with progress tracking",
+      "imageUrl": "/api/placeholder/400/300",
+      "likes": 84,
+      "views": 2300,
+      "author": {
+        "name": "Tino",
+        "username": "tino-design",
+        "avatar": "/api/placeholder/32/32",
+        "isPro": false,
+        "isTeam": true
+      },
+      "tags": ["fitness", "health", "mobile", "gamification"],
+      "category": "mobile",
+      "createdAt": "2024-01-02T09:30:00Z",
+      "colors": ["#10B981", "#3B82F6", "#FFFFFF"]
+    },
+    {
+      "id": 15,
+      "title": "Nothing OS Concept",
+      "description": "Minimalist mobile OS interface design",
+      "imageUrl": "/api/placeholder/400/300",
+      "likes": 88,
+      "views": 2500,
+      "author": {
+        "name": "Geex Arts",
+        "username": "geexarts",
+        "avatar": "/api/placeholder/32/32",
+        "isPro": false,
+        "isTeam": true
+      },
+      "tags": ["mobile", "os", "minimal", "interface"],
+      "category": "mobile",
+      "createdAt": "2024-01-01T12:00:00Z",
+      "colors": ["#000000", "#FFFFFF", "#6B7280"]
+    },
+    {
+      "id": 16,
+      "title": "Animated Illustration",
+      "description": "Motion graphics for financial services",
+      "imageUrl": "/api/placeholder/400/300",
+      "likes": 80,
+      "views": 16600,
+      "author": {
+        "name": "Wegrow",
+        "username": "wegrow",
+        "avatar": "/api/placeholder/32/32",
+        "isPro": false,
+        "isTeam": true
+      },
+      "tags": ["animation", "finance", "motion", "illustration"],
+      "category": "animation",
+      "createdAt": "2023-12-31T15:30:00Z",
+      "colors": ["#10B981", "#F59E0B", "#FFFFFF"]
+    }
+  ]
+}

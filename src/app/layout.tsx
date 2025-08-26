@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import CookiePopup from "@/components/CookiePopup";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -12,28 +13,6 @@ export const metadata: Metadata = {
   description: "Explore work from the most talented and accomplished designers ready to take on your next project.",
 };
 
-// Cookie Popup Component
-function CookiePopup() {
-  return (
-    <div className="fixed bottom-4 left-4 right-4 lg:left-8 lg:right-auto lg:max-w-md bg-white rounded-xl shadow-2xl border border-gray-200 p-6 z-50">
-      <h3 className="text-lg font-semibold text-gray-900 mb-3">We value your privacy</h3>
-      <p className="text-sm text-gray-600 mb-4 leading-relaxed">
-        We use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking "Accept All", you consent to our use of cookies.
-      </p>
-      <div className="flex flex-col sm:flex-row gap-2">
-        <button className="px-4 py-2 text-sm font-medium text-pink-500 border border-pink-500 rounded-lg hover:bg-pink-50 transition-colors">
-          Customise
-        </button>
-        <button className="px-4 py-2 text-sm font-medium text-gray-600 border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors">
-          Reject All
-        </button>
-        <button className="px-4 py-2 text-sm font-medium text-white bg-pink-500 rounded-lg hover:bg-pink-600 transition-colors">
-          Accept All
-        </button>
-      </div>
-    </div>
-  );
-}
 
 // Header Component
 function Header() {
