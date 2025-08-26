@@ -1,26 +1,41 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap');
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Dribbble Design System Colors */
+  --color-brand: #EA4C89;
+  --color-brand-hover: #B8509A;
+  --color-brand-light: rgba(234, 76, 137, 0.95);
+  
+  --color-blue: #1863DC;
+  --color-blue-light: #3E34D3;
+  --color-green: #00B050;
+  
+  --color-black: #000000;
+  --color-dark-gray: #0D0C22;
+  --color-medium-gray: #212133;
+  --color-light-gray: #F4F4F4;
+  --color-white: #FFFFFF;
+  --color-off-white: #FDFDFD;
+  --color-background: #F3F3F6;
+  
+  --color-text-primary: #0D0C22;
+  --color-text-secondary: #212133;
+  --color-text-tertiary: #3A3A47;
+  --color-text-muted: #6E6D7A;
+  
+  --shadow-sm: rgba(172, 171, 171, 0.3) 0px -1px 10px 0px;
+  --shadow-base: rgba(27, 32, 50, 0.1) 0px 15px 50px 0px;
+  --shadow-lg: rgba(0, 0, 0, 0.2) 0px 20px 48px 0px;
+  --shadow-xl: rgba(0, 0, 0, 0.3) 0px 32px 68px 0px;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: #FFFFFF;
+  color: var(--color-text-primary);
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }

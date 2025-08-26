@@ -1,0 +1,266 @@
+{
+  "designSystem": {
+    "name": "Dribbble Design System",
+    "version": "1.0.0",
+    "source": "https://dribbble.com/",
+    "extractedDate": "2025-01-16",
+    "description": "Dribbble.com의 디자인 시스템 분석 결과",
+    
+    "colors": {
+      "primary": {
+        "brand": "#EA4C89",
+        "brandHover": "#B8509A",
+        "brandLight": "rgba(234, 76, 137, 0.95)"
+      },
+      "secondary": {
+        "blue": "#1863DC",
+        "blueLight": "#3E34D3",
+        "green": "#00B050"
+      },
+      "neutrals": {
+        "black": "#000000",
+        "darkGray": "#0D0C22",
+        "mediumGray": "#212133",
+        "lightGray": "#F4F4F4",
+        "white": "#FFFFFF",
+        "offWhite": "#FDFDFD",
+        "background": "#F3F3F6"
+      },
+      "text": {
+        "primary": "#0D0C22",
+        "secondary": "#212133",
+        "tertiary": "#3A3A47",
+        "muted": "#6E6D7A"
+      },
+      "states": {
+        "success": "#00B050",
+        "warning": "#F4A09C",
+        "error": "#E83A30",
+        "info": "#1863DC"
+      },
+      "palette": {
+        "pastel": [
+          "#FAE6D1", "#FADDD1", "#FAD3D1", "#FAD1E6", "#E5D1FA",
+          "#D4D1FA", "#D1E3FA", "#D1F3FA", "#D1FAF0", "#D1FAD7"
+        ],
+        "vibrant": [
+          "#EE8F66", "#EE6D66", "#EE66AA", "#A866EE", "#7166EE",
+          "#66A1EE", "#66D7EE", "#66EECE", "#66EE78", "#BCEE66"
+        ],
+        "dark": [
+          "#5C230A", "#5C0E0A", "#5C0A33", "#320A5C", "#110A5C",
+          "#0A2E5C", "#0A4E5C", "#0A5C49", "#0A5C15", "#3E5C0A"
+        ]
+      }
+    },
+
+    "typography": {
+      "fontFamily": {
+        "primary": "\"Mona Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fallback": "Arial"
+      },
+      "fontSizes": {
+        "xs": "9px",
+        "sm": "10px",
+        "base": "12px",
+        "md": "13px",
+        "lg": "14px",
+        "xl": "15px",
+        "2xl": "16px",
+        "3xl": "18px",
+        "4xl": "48px"
+      },
+      "fontWeights": {
+        "normal": "400",
+        "medium": "500",
+        "semibold": "600",
+        "bold": "700",
+        "black": "900"
+      },
+      "lineHeights": {
+        "tight": "10px",
+        "snug": "12px",
+        "normal": "16px",
+        "relaxed": "20px",
+        "loose": "24px",
+        "extraLoose": "28px",
+        "hero": "51.84px"
+      },
+      "textTransform": {
+        "none": "none",
+        "uppercase": "uppercase"
+      },
+      "letterSpacing": {
+        "normal": "normal"
+      }
+    },
+
+    "spacing": {
+      "scale": [
+        "0px", "1px", "2px", "3px", "4px", "5px", "6px", "8px", 
+        "10px", "11px", "12px", "14px", "15px", "16px", "18px", 
+        "20px", "22px", "24px", "26px", "30px", "36px", "40px", 
+        "72px", "99.92px"
+      ],
+      "component": {
+        "xs": "3px",
+        "sm": "6px",
+        "md": "8px",
+        "lg": "12px",
+        "xl": "16px",
+        "2xl": "24px",
+        "3xl": "36px",
+        "4xl": "72px"
+      }
+    },
+
+    "borderRadius": {
+      "none": "0px",
+      "sm": "2px",
+      "base": "4px",
+      "md": "6px",
+      "lg": "8px",
+      "xl": "12px",
+      "2xl": "50px",
+      "full": "50%",
+      "round": "1e+07px"
+    },
+
+    "shadows": {
+      "none": "none",
+      "sm": "rgba(172, 171, 171, 0.3) 0px -1px 10px 0px",
+      "base": "rgba(27, 32, 50, 0.1) 0px 15px 50px 0px",
+      "lg": "rgba(0, 0, 0, 0.2) 0px 20px 48px 0px",
+      "xl": "rgba(0, 0, 0, 0.3) 0px 32px 68px 0px"
+    },
+
+    "components": {
+      "button": {
+        "primary": {
+          "backgroundColor": "#EA4C89",
+          "color": "#FFFFFF",
+          "padding": "8px 24px",
+          "borderRadius": "1e+07px",
+          "fontWeight": "600",
+          "fontSize": "14px"
+        },
+        "secondary": {
+          "backgroundColor": "transparent",
+          "color": "#EA4C89",
+          "padding": "8px 24px",
+          "borderRadius": "1e+07px",
+          "fontWeight": "600",
+          "fontSize": "14px",
+          "border": "1px solid #EA4C89"
+        }
+      },
+      "card": {
+        "default": {
+          "backgroundColor": "#FFFFFF",
+          "borderRadius": "8px",
+          "padding": "24px",
+          "boxShadow": "rgba(27, 32, 50, 0.1) 0px 15px 50px 0px"
+        },
+        "elevated": {
+          "backgroundColor": "#FFFFFF",
+          "borderRadius": "6px",
+          "padding": "24px",
+          "boxShadow": "rgba(0, 0, 0, 0.3) 0px 32px 68px 0px"
+        }
+      },
+      "input": {
+        "default": {
+          "backgroundColor": "#FFFFFF",
+          "border": "1px solid #E5E5E5",
+          "borderRadius": "6px",
+          "padding": "12px 16px",
+          "fontSize": "14px",
+          "fontFamily": "\"Mona Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif"
+        }
+      },
+      "badge": {
+        "pro": {
+          "backgroundColor": "#EA4C89",
+          "color": "#FFFFFF",
+          "fontSize": "10px",
+          "fontWeight": "700",
+          "textTransform": "uppercase",
+          "padding": "2px 6px",
+          "borderRadius": "4px"
+        }
+      },
+      "avatar": {
+        "default": {
+          "borderRadius": "50%",
+          "border": "2px solid #FFFFFF",
+          "boxShadow": "rgba(0, 0, 0, 0.1) 0px 2px 4px 0px"
+        }
+      }
+    },
+
+    "layout": {
+      "container": {
+        "maxWidth": "1200px",
+        "padding": "0px 72px",
+        "margin": "0 auto"
+      },
+      "grid": {
+        "columns": 12,
+        "gap": "24px"
+      },
+      "breakpoints": {
+        "mobile": "768px",
+        "tablet": "1024px",
+        "desktop": "1200px"
+      }
+    },
+
+    "navigation": {
+      "header": {
+        "height": "70px",
+        "backgroundColor": "#FFFFFF",
+        "borderBottom": "1px solid #F4F4F4",
+        "padding": "0px 24px"
+      },
+      "menu": {
+        "fontSize": "14px",
+        "fontWeight": "600",
+        "color": "#212133",
+        "padding": "12px 0px"
+      }
+    },
+
+    "interaction": {
+      "hover": {
+        "transition": "all 0.2s ease-in-out",
+        "transform": "translateY(-2px)"
+      },
+      "focus": {
+        "outline": "2px solid #EA4C89",
+        "outlineOffset": "2px"
+      },
+      "active": {
+        "transform": "translateY(0px)"
+      }
+    },
+
+    "designPrinciples": [
+      "Clean and minimal design with generous white space",
+      "Consistent use of rounded corners and soft shadows",
+      "Strong brand color (pink) used strategically for CTAs and highlights",
+      "Typography hierarchy with clear size and weight distinctions",
+      "Card-based layout for content organization",
+      "Responsive grid system",
+      "Subtle animations and hover effects",
+      "Professional color palette with creative accent colors"
+    ],
+
+    "usage": {
+      "primaryColor": "Use #EA4C89 for primary actions, brand elements, and key highlights",
+      "typography": "Mona Sans provides modern, clean readability across all text sizes",
+      "spacing": "Follow 8px grid system for consistent spacing and alignment",
+      "shadows": "Use subtle shadows to create depth and hierarchy",
+      "borderRadius": "Consistent rounded corners create friendly, approachable feel"
+    }
+  }
+}
